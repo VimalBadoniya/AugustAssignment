@@ -1,0 +1,35 @@
+.a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+.searchInput {
+  width: 20rem;
+  padding: 2px 4px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  overflow-x: hidden;
+}
+.searchBtn {
+  border: 1px solid black;
+  outline: none;
+  border-radius: 4px;
+}
+.productContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px;
+}
+.product {
+  height: 18rem;
+  width: 12rem;
+  background-color: cadetblue;
+  margin: 4px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

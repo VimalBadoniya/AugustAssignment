@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formInput {
+  height: 2rem;
+  width: 50%;
+  margin: 4px 0;
+  padding: 4px;
+}
+.formBtn {
+  height: 2rem;
+  width: 6rem;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 8px;
+}
